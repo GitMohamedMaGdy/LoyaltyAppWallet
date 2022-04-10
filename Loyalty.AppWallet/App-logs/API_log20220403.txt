@@ -1,0 +1,72 @@
+ 03/04/2022 - 21:37:24 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 21:37:24 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 21:37:24 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 21:37:24 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+
+ 03/04/2022 - 22:08:38 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 22:08:38 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 22:08:38 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 22:08:38 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+
+ 03/04/2022 - 22:08:49 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 22:08:49 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 22:08:49 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 22:08:50 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+
+ 03/04/2022 - 22:10:09 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 22:10:09 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 22:10:09 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 22:10:09 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+
+ 03/04/2022 - 22:13:25 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 22:13:25 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 22:13:25 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 22:13:25 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+
+ 03/04/2022 - 22:13:32 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Configurations Added Successfully 
+
+ 03/04/2022 - 22:13:32 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Design  Done Successfully 
+
+ 03/04/2022 - 22:13:32 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Images Added Successfully 
+
+ 03/04/2022 - 22:13:32 [Information] => (Loyalty.Services.Helpers.PassGeneratorHelper)
+ Fields Added Successfully 
+

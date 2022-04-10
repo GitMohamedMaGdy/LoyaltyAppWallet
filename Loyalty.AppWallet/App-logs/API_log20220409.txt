@@ -1,0 +1,45 @@
+ 09/04/2022 - 16:34:53 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Configurations Added Successfully 
+
+ 09/04/2022 - 16:34:53 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Images Added Successfully 
+
+ 09/04/2022 - 16:35:05 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Fields Added Successfully 
+
+ 09/04/2022 - 16:35:18 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Configurations Added Successfully 
+
+ 09/04/2022 - 16:35:18 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Images Added Successfully 
+
+ 09/04/2022 - 16:35:19 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Fields Added Successfully 
+
+ 09/04/2022 - 16:37:09 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Configurations Added Successfully 
+
+ 09/04/2022 - 16:37:09 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Images Added Successfully 
+
+ 09/04/2022 - 16:37:14 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Fields Added Successfully 
+
+ 09/04/2022 - 16:38:25 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Configurations Added Successfully 
+
+ 09/04/2022 - 16:38:25 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Images Added Successfully 
+
+ 09/04/2022 - 16:38:29 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Fields Added Successfully 
+
+ 09/04/2022 - 16:38:34 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Configurations Added Successfully 
+
+ 09/04/2022 - 16:38:34 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Images Added Successfully 
+
+ 09/04/2022 - 16:38:34 [Information] => (Loyalty.DataAccess.Managers.PassManager)
+ Fields Added Successfully 
+

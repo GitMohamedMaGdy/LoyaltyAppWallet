@@ -1,0 +1,21 @@
+﻿{
+  "PkPassFile": {
+    "formatVersion": 1,
+    "passTypeIdentifier": "---",
+    "organizationName": "Dsquares",
+    "serialNumber": "---",
+    "teamIdentifier": "---",
+    "webServiceURL": "---",
+    "authenticationToken": "---",
+    "description": "50% Discount",
+    "foregroundColor": "#ffffff",
+    "backgroundColor": "#064D26",
+    "logoText": "Starbucks",
+    "labelColor": "#ffffff",
+    "barcode": {
+      "messageEncoding": "utf-8",
+      "format": "PKBarcodeFormatQR",
+      "message": "---"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+ 10/04/2022 - 02:46:40 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 02:48:46 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 02:50:32 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 02:53:17 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 02:53:51 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:01:22 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:09:02 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:17:14 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:17:47 [Error] => (Microsoft.EntityFrameworkCore.Database.Command)
+ Failed executing DbCommand ("35"ms) [Parameters=["@p0='pass.dsq.eg.com' (Nullable = false) (Size = 450), @p1='1212121212121212121212121212121212' (Size = 4000), @p2='2022-04-10T03:17:47', @p3='323232131_serail' (Nullable = false) (Size = 450), @p4=NULL (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Passes] ([PassTypeIdentifier], [AuthenticationToken], [LastUpdateAt], [SerialNumber], [Value])
+VALUES (@p0, @p1, @p2, @p3, @p4);" 
+
+ 10/04/2022 - 03:17:48 [Error] => (Microsoft.EntityFrameworkCore.Update)
+ An exception occurred in the database while saving changes for context type '"Loyalty.DataAccess.Shared.LoyaltyContext"'."
+""Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Passes'. Cannot insert duplicate key in object 'dbo.Passes'. The duplicate key value is (pass.dsq.eg.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7cfe74c8-390c-40c7-9a63-26c204bef821
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)" Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Passes'. Cannot insert duplicate key in object 'dbo.Passes'. The duplicate key value is (pass.dsq.eg.com).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:7cfe74c8-390c-40c7-9a63-26c204bef821
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+
+ 10/04/2022 - 03:17:48 [Error] => (Microsoft.EntityFrameworkCore.Database.Transaction)
+ An error occurred using a transaction. 
+
+ 10/04/2022 - 03:17:49 [Error] => (Loyalty.AppWallet.Filters.ErrorFilters.GlobalExceptionMiddleware)
+ ERROR: This SqlTransaction has completed; it is no longer usable.,
+STACKTRACE:    at Microsoft.Data.SqlClient.SqlTransaction.ZombieCheck()
+   at Microsoft.Data.SqlClient.SqlTransaction.Rollback()
+   at System.Data.Common.DbTransaction.RollbackAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.RollbackAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.RollbackAsync(CancellationToken cancellationToken)
+   at Loyalty.DataAccess.Shared.UnitOfWork.RollbackTransaction() in D:\LoyaltyAppWallet\LoyaltyAppWallet\Loyalty.Data\Shared\UnitOfWork.cs:line 52
+   at Loyalty.DataAccess.Managers.DeviceManager.HandleRegisterDeviceAsync(HttpRequest request, String deviceLibraryIdentifier, String passTypeIdentifier, String serialNumber, String pushToken) in D:\LoyaltyAppWallet\LoyaltyAppWallet\Loyalty.Data\Managers\DeviceManager.cs:line 60
+   at Loyalty.AppWallet.Controllers.DevicesController.RegisterDeviceAsync(RegisterationModel model, String deviceLibraryIdentifier, String passTypeIdentifier, String serialNumber) in D:\LoyaltyAppWallet\LoyaltyAppWallet\Loyalty.AppWallet\Controllers\DevicesController.cs:line 25
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Loyalty.AppWallet.Startup.<>c.<<Configure>b__5_2>d.MoveNext() in D:\LoyaltyAppWallet\LoyaltyAppWallet\Loyalty.AppWallet\Startup.cs:line 107
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Loyalty.AppWallet.Filters.ErrorFilters.GlobalExceptionMiddleware.InvokeAsync(HttpContext httpContext) in D:\LoyaltyAppWallet\LoyaltyAppWallet\Loyalty.AppWallet\Filters\ErrorFilters\GlobalExceptionMiddleware.cs:line 25,
+INNER EXCEPTION:   
+
+ 10/04/2022 - 03:20:02 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:22:24 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:24:18 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+
+ 10/04/2022 - 03:25:52 [Warning] => (Microsoft.EntityFrameworkCore.Model.Validation)
+ Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data, this mode should only be enabled during development. 
+

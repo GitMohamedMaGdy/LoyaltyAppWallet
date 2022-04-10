@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loyalty.AppWallet", "Loyalty.AppWallet\Loyalty.AppWallet.csproj", "{613AED76-3DA9-40FD-BE1F-9F5247BD3FE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loyalty.Domain", "Loyalty.Domain\Loyalty.Domain.csproj", "{ECA49682-9BB8-4D60-B6BC-7ECC4357586B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loyalty.DataAccess", "Loyalty.Data\Loyalty.DataAccess.csproj", "{2BB8ADB2-7E2A-45D3-A853-ADBF7F3C610C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613AED76-3DA9-40FD-BE1F-9F5247BD3FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613AED76-3DA9-40FD-BE1F-9F5247BD3FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613AED76-3DA9-40FD-BE1F-9F5247BD3FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613AED76-3DA9-40FD-BE1F-9F5247BD3FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA49682-9BB8-4D60-B6BC-7ECC4357586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA49682-9BB8-4D60-B6BC-7ECC4357586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA49682-9BB8-4D60-B6BC-7ECC4357586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA49682-9BB8-4D60-B6BC-7ECC4357586B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB8ADB2-7E2A-45D3-A853-ADBF7F3C610C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB8ADB2-7E2A-45D3-A853-ADBF7F3C610C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB8ADB2-7E2A-45D3-A853-ADBF7F3C610C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB8ADB2-7E2A-45D3-A853-ADBF7F3C610C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76093C04-1311-48FB-A5A4-7F069CA8C7C6}
+	EndGlobalSection
+EndGlobal
